@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#cards, .card, .fl, .title1, .title2, .title3, .title4{
+    border: 1px solid black;}
+
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+#cards {
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card {
+    width: 300px;
+    height: 675px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+.fl {
+    width: 280px;
+    height: 420px;
+    margin-top: 10px;
+
+    position: relative;
+
+  
+}
+.f1_1{
+
+   position: absolute;
+
+   top: 170px;
+   left: 100px;
+    width: 100%;
+   height: 100%; 
+   z-index: 2; 
+  
+
+}
+.f1_2{
+    position: absolute;
+    /* z-index: 1;  */
+    
+}
+
+.f1_3{
+    position: absolute;
+    /* top: 320px; */
+    bottom: -200px;
+    width: 100%;
+    height: 100%; 
+    z-index: 3; 
+    
+}
+
+.title1{
+    width: 280px;
+    height: 75px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+
+
+}
+.title2{
+    width: 280px;
+    height: 45px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-self: center;
+    
+}
+.title2_1{
+    font-size: 30px;
+
+}
+.title2_2{
+    font-size: 19px;
+    text-decoration: line-through;
+    color: gray;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.title3{
+    width: 280px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+.title4{
+    width: 280px;
+    height: 75px;
+    
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+
+}
+
+.title4:hover{
+    text-decoration: 1s;
+    filter: saturate(50);
+}
