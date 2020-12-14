@@ -21,6 +21,7 @@ body{
 .card {
     width: 300px;
     height: 675px;
+   
 
 
     display: flex;
@@ -28,6 +29,10 @@ body{
     flex-wrap: wrap;
     align-content: flex-start;
 
+}
+.card:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
 }
 .fl {
     width: 280px;
